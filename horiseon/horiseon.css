@@ -165,4 +165,7 @@ footer{
     header h1{
         text-align: center;
     }
+    ul.flex{
+        margin: 0 10px;
+    }
 }
