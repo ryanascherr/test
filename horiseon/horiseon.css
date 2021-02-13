@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D9DCD6;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    background-color: #29607b;
+    padding: 15px 0;
+}
+
+h1{
+    padding: 15px 15px;
+    color: white;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 30px 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img#digital-marketing-meeting{
+    width: 100%;
+}
+
+article section{
+    margin: 15px;
+    background-color: #0072BA;
+}
+
+article section p{
+    margin-top: 30px;
+}
+
+article section img{
+    width: 300px;
+}
+
+.section-left{
+    margin: 45px 15px 45px 45px;
+}
+
+.section-right{
+    margin: 45px 45px 45px 15px;
+}
+
+h2, h3, p{
+    color: white;
+}
+
+article{
+    width: 80%;
+}
+
+aside{
+    width: 20%;
+    margin: 15px;
+    background-color: #2589BC;
+}
+
+aside img{
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+aside h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+aside section{
+    margin: 40px 20px;
+}
+
+footer h3, footer p{
+    color: black;
+    text-align: center;
+}
+
+footer{
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 930px) {
+    div.flex{
+        display: block;
+    }
+    article{
+        width: 100%;
+    }
+    aside{
+        display: flex;
+        margin-right: 15px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    aside{
+        display: block;
+        
+    }
+    aside section{
+        width: 50%;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    aside p{
+        margin-bottom: 30px;
+    }
+    article section.flex{
+        display: block;
+    }
+    div.section-left{
+        margin: 0;
+        padding: 15px;
+    }
+    div.section-right{
+        margin: 0;
+        padding: 15px;
+    }
+    article section figure img{
+        display: block;
+        margin: 0 auto;
+    }
+    article section{
+        text-align: center;
+    }
+    header.flex{
+        display: block;
+    }
+    header h1{
+        text-align: center;
+    }
+}
